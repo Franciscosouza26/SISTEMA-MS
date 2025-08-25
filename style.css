@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+top: 10px;
+left: 0;
+width:100%;
+justify-content: space-between;
+align-items: flex-end;
+display: flex;
+
+background-color: blue;
+}
+
+body{
+    display: flex;
+   
+}
+.navigation a{
+    position: relative;
+    right: 20%;
+    padding-left: 30px;
+    color: orangered;
+}
+
+.login-box{
+    display: flex;
+    top: 50%;
+    left: 50%;
+    padding: 30px;
+    padding-top:10px ;
+    padding-bottom: 80px;
+    margin: 10;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    box-shadow: 10px;
+    background-color: rgb(71, 71, 59);
+    height: 55%;
+    width: 35%;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
